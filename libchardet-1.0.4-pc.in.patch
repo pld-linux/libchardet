@@ -1,0 +1,8 @@
+--- libchardet-1.0.4/chardet.pc.in.orig	2015-12-10 20:03:21.809555590 +0100
++++ libchardet-1.0.4/chardet.pc.in	2015-12-10 20:03:38.359561466 +0100
+@@ -9,4 +9,4 @@
+ Description: Mozilla's Universal Charset Detector C/C++ API
+ Version: @PACKAGE_VERSION@
+ Libs: -L${libdir} -lchardet
+-Cflags: -I${includedir}/chardet @CFLAGS@
++Cflags: -I${includedir}/chardet
