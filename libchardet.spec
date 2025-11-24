@@ -1,7 +1,7 @@
 Summary:	Mozilla's universal character set detector
 Name:		libchardet
 Version:	1.0.5
-Release:	1
+Release:	2
 License:	MPL
 URL:		http://ftp.oops.org/pub/oops/libchardet/
 Source0:	https://github.com/Joungkyun/libchardet/archive/%{version}.tar.gz
@@ -69,6 +69,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/chardet-config
 %{_libdir}/*.so
 %{_pkgconfigdir}/chardet.pc
-%{_includedir}/chardet/*.h
+%{_includedir}/chardet
 %{_mandir}/man3/*
 %lang(ko) %{_mandir}/ko/man3/detect*.3*
